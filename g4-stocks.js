@@ -118,7 +118,7 @@
             },
             componentDidMount: function() {
                 this.googleApi();
-                // setInterval(this.onTimer, 1000);
+                setInterval(this.onTimer, 1000);
             },
             render: function(){
                 var mycols=this.props.cols;
